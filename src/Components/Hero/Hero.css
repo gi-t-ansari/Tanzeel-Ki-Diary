@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+
+.heroContainer {
+    text-align: center;
+}
+
+@keyframes typing {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+
+@media (min-width : 769px) {
+    .heroContainer h1 {
+        font-size: 40px;
+    }
+
+    .heroContainer p{
+        font-size: 20px;
+    }
+    
+}

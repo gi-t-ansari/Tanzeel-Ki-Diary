@@ -1,0 +1,38 @@
+.navBarContainer {
+    display: flex;
+    border-bottom: 1px solid #475569;
+    padding: 10px 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoContainer {
+    max-height: 70px;
+}
+
+.logo {
+    max-width: 100px;
+    border-radius: 10px;
+    box-shadow: 2.5px 2.5px 10px #1e293b;
+}
+
+.genreContainer h4 {
+    margin: 0;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.genreContainer {
+    display: flex;
+}
+
+@media (max-width: 576px) {
+    .genreContainer {
+        display: block;
+    }
+
+    .genreContainer h4 {
+        padding: 5px;
+        text-align: right;
+    }
+}
