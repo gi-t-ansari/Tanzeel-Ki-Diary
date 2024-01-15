@@ -34,7 +34,7 @@ function FourLiners() {
       <NavBar />
       <Hero />
       <div style={{ padding: '10px 60px' }}>
-        <h2 style={{ textAlign: 'center', margin: '0px', textTransform: "uppercase", letterSpacing: "20px", opacity: "0.8" }}>Two Line Poetries</h2>
+        <h2 style={{ textAlign: 'center', margin: '0px', textTransform: "uppercase", letterSpacing: "20px", opacity: "0.8" }}>Four Line Poetries</h2>
         <div className="cardsContainer">
           {fourLinePoetries.slice(0, endIndex).map((data, index) => (
             <div className="card" key={index}>
